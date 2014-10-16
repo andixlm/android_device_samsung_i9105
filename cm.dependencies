@@ -1,4 +1,12 @@
 [
+    {
+        "repository": "android_device_samsung_bcm281x5-common",
+        "target_path": "device/samsung/bcm281x5-common"
+    },
+    {
+        "repository": "android_kernel_samsung_s2ve",
+        "target_path": "kernel/samsung/s2ve"
+    },
 	{
 		"repository": "android_packages_apps_SamsungServiceMode",
 		"target_path": "packages/apps/SamsungServiceMode"
