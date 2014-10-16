@@ -667,7 +667,7 @@ on property:init.svc.media=restarting
     start icd
 
 on fs
-    mount_all /fstab.capri_ss_s2vep
+    mount_all /fstab.capri_ss_s2ve
     setprop ro.crypto.fuse_sdcard true
 
     # don't require sim
