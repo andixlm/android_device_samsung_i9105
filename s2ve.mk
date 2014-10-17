@@ -1,17 +1,9 @@
 # Include common makefile
 $(call inherit-product, device/samsung/bcm281x5-common/common.mk)
 
-$(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
-
 LOCAL_PATH := device/samsung/s2ve
 
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
-
-PRODUCT_DEVICE := s2ve
-PRODUCT_NAME := full_s2ve
-PRODUCT_BRAND := samsung
-PRODUCT_MANUFACTURER := samsung
-PRODUCT_MODEL := GT-I9105
 
 PRODUCT_AAPT_CONFIG := normal hdpi
 PRODUCT_AAPT_PREF_CONFIG := hdpi
