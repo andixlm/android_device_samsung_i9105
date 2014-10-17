@@ -5,7 +5,7 @@ PRODUCT_RELEASE_NAME := GT-I9105
 $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 
 # Inherit device configuration
-$(call inherit-product, device/samsung/s2ve/device_s2ve.mk)
+$(call inherit-product, device/samsung/s2ve/full_s2ve.mk)
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := s2ve

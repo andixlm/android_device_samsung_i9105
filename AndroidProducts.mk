@@ -1,2 +1,2 @@
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/device_s2ve.mk
+    $(LOCAL_DIR)/full_s2ve.mk
