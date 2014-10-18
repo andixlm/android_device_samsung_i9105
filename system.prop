@@ -3,11 +3,3 @@ rild.libpath=/system/lib/libbrcm_ril.so
 ro.sf.lcd_density=240
 ro.lcd_brightness=180
 ro.lcd_min_brightness=40
-
-# MultiTouch support
-ro.product.multi_touch_enabled=true
-ro.product.max_num_touch=2
-
-# FM Radio SNR
-service.brcm.fm.start_snr=41
-service.brcm.fm.stop_snr=20
