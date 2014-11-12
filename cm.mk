@@ -9,11 +9,11 @@ TARGET_SCREEN_HEIGHT := 800
 $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 
 # Inherit device configuration
-$(call inherit-product, device/samsung/s2ve/full_s2ve.mk)
+$(call inherit-product, device/samsung/i9105/full_i9105.mk)
 
 ## Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := s2ve
-PRODUCT_NAME := cm_s2ve
+PRODUCT_DEVICE := i9105
+PRODUCT_NAME := cm_i9105
 PRODUCT_BRAND := samsung
 PRODUCT_MANUFACTURER := samsung
 PRODUCT_MODEL := GT-I9105

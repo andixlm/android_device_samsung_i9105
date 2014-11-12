@@ -1,7 +1,7 @@
 # Include common makefile
 $(call inherit-product, device/samsung/bcm281x5-common/common.mk)
 
-LOCAL_PATH := device/samsung/s2ve
+LOCAL_PATH := device/samsung/i9105
 
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
