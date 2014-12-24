@@ -1,9 +1,6 @@
 # Include common BoardConfig
 -include device/samsung/galaxys2plus-common/BoardConfigCommon.mk
 
-# Bluetooth
-BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/samsung/i9105/bluetooth
-
 # Kernel
 TARGET_KERNEL_CONFIG := cyanogenmod_s2ve_defconfig
 
