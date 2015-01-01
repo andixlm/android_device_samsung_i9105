@@ -3,10 +3,7 @@ $(call inherit-product, device/samsung/galaxys2plus-common/common.mk)
 
 LOCAL_PATH := device/samsung/i9105
 
-PRODUCT_AAPT_CONFIG := normal hdpi
-PRODUCT_AAPT_PREF_CONFIG := hdpi
-
-# Init files
+# Init scripts
 PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/ramdisk/init.capri_ss_s2ve.rc:root/init.capri_ss_s2ve.rc \
 	$(LOCAL_PATH)/ramdisk/init.recovery.capri_ss_s2ve.rc:root/init.recovery.capri_ss_s2ve.rc \
